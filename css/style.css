@@ -1,0 +1,168 @@
+.navbar-brand img {
+    height: 50px;
+}
+
+@media (min-width: 768px) {
+    /*nav選單*/
+    .navbar {
+        padding-left: 50px !important;
+        padding-right: 50px !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-nav .nav-item .nav-link {
+        font-size: 1rem !important;
+        padding-right: 1rem !important;
+        padding-left: 1rem !important;
+    }
+}
+
+.body {
+    font-family: serif, sans-serif, cursive, fantasy, monospace;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h4,
+h6,
+div,
+span {
+    font-family: PingFangSC-Regular, sans-serif, Microsoft JhengHei;
+}
+
+.custom-container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+    max-width: 1230px;
+}
+
+.navbar-center {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar-collapse-center {
+    text-align: center;
+}
+
+.text-border {
+    border-bottom: 1px #faf4ff solid !important;
+    padding-bottom: 5px !important;
+}
+
+.nav-item {
+    padding: 5px 25px !important;
+}
+
+.block {
+    padding: 50px 0;
+}
+
+.list-inline-item-padding {
+    justify-content: space-between;
+}
+
+.main-color {
+    background: #cd8d7b;
+}
+
+.sub-color {
+    background: #faf4ff;
+}
+
+.search img {
+    box-shadow: 2px 2px 4px gray;
+}
+
+.song-list {
+    padding: 30px 0;
+    justify-content: space-around;
+}
+
+.news-list {
+    padding: 30px 0;
+    justify-content: space-around;
+}
+
+.content {
+    padding: 50px 0;
+    align-items: center;
+}
+
+.content .col img {
+    width: 100%;
+}
+
+.bg-color {
+    background-color: #30475e;
+}
+
+footer {
+    background-color: #30475e;
+}
+
+.fa-facebook-square {
+    font-size: 36px;
+    color: white;
+}
+
+.fa-instagram {
+    font-size: 36px;
+    color: white;
+}
+
+.btn-padding {
+    padding: 0px 20px 0px 0px;
+}
+
+.row-padding {
+    padding: 50px 0;
+}
+
+.row-padding-20 {
+    padding: 20px 0;
+}
+
+.btn-default {
+    background-color: #f9595f !important;
+}
+
+.nav-text-size {
+    font-size: 22px;
+}
+
+.text-black {
+    color: black;
+}
+
+.text-size-20 {
+    font-size: 20px;
+}
+
+.text-sub-color {
+    color: #d3ced6;
+}
+
+.search {
+    padding: 210px 0;
+    background: linear-gradient(bottom rgba(0, 0, 0, 1), rgba(205, 141, 123, 0)),
+        url(../img/main.png) center top no-repeat cover;
+    background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(205, 141, 123, 0)),
+        url(../img/main.png) center top no-repeat cover;
+    background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(205, 141, 123, 0)),
+        url(../img/main.png) center top no-repeat;
+    background-size: cover;
+}
+
+.search-content {
+    padding-left: 0px !important;
+    padding-bottom: 50px;
+}
