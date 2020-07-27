@@ -8,6 +8,14 @@
         padding-left: 50px !important;
         padding-right: 50px !important;
     }
+    .custom-container {
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: 15px;
+        padding-left: 15px;
+        width: 100%;
+        max-width: 720px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -15,6 +23,30 @@
         font-size: 1rem !important;
         padding-right: 1rem !important;
         padding-left: 1rem !important;
+    }
+    .custom-container {
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: 15px;
+        padding-left: 15px;
+        width: 100%;
+        max-width: 980px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .navbar-nav .nav-item .nav-link {
+        font-size: 1rem !important;
+        padding-right: 1rem !important;
+        padding-left: 1rem !important;
+    }
+    .custom-container {
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: 15px;
+        padding-left: 15px;
+        width: 100%;
+        max-width: 1230px;
     }
 }
 
@@ -32,15 +64,6 @@ h6,
 div,
 span {
     font-family: PingFangSC-Regular, sans-serif, Microsoft JhengHei;
-}
-
-.custom-container {
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 15px;
-    padding-left: 15px;
-    width: 100%;
-    max-width: 1230px;
 }
 
 .navbar-center {
@@ -84,7 +107,13 @@ span {
 
 .song-list {
     padding: 30px 0;
-    justify-content: space-around;
+    display: block;
+}
+
+@media (max-width: 1280px) {
+    #song-item-5 {
+        display: none;
+    }
 }
 
 .news-list {
